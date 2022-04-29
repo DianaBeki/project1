@@ -5,6 +5,8 @@ int main ()
     double power1= 1.0;
     printf("Enter the base:");
     scanf("%d", &base);
+    printf("Enter the exponent");
+    scanf("%d", &exponent);
 
     expo = exponent;
     if(exponent>0)
